@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>table</title>
+    <style>/* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 16px;
+            text-align: left;
+        }
+        
+        /* Table header */
+        table th {
+            background-color: #ff4c4c; /* Zomato Red */
+            color: white;
+            padding: 12px;
+        }
+        
+        /* Table body */
+        table td {
+            padding: 12px;
+            border: 1px solid #ddd;
+        }
+        
+        /* Alternate row coloring for better readability */
+        table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        /* Hover effect for rows */
+        table tr:hover {
+            background-color: #f1f1f1;
+        }
+        
+        /* Table borders */
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        
+        /* Responsive design */
+        @media screen and (max-width: 600px) {
+            table {
+                width: 100%;
+            }
+        
+            table, th, td {
+                display: block;
+                width: 100%;
+            }
+        
+            table th {
+                background-color: #ff4c4c;
+            }
+        }
+        </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>name</th>
+          <th>surname</th>
+          <th>age</th>
+          <th>city</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>pranay</td>
+          <td>tajane</td>
+          <td>24</td>
+          <td>wani</td>
+        </tr>
+        <tr>
+          <td>akhil</td>
+          <td>meshram</td>
+          <td>24</td>
+          <td>wani</td>
+        </tr>
+        <tr>
+          <td>suhas</td>
+          <td>goharkar</td>
+          <td>24</td>
+          <td>wani</td>
+        </tr>
+        <tr>
+          <td>ronak</td>
+          <td>tated</td>
+          <td>26</td>
+          <td>wani</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
